@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    border: 1px solid black;
+    width: 60%;
+    background-color: aliceblue;
+    height: 400px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+input{
+    width: 280px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    width: 100px;
+    border: 1px solid black;
+    height: 30px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
